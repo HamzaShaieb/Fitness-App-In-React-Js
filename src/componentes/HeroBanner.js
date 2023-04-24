@@ -1,4 +1,4 @@
-import React,{useEffect,useState} from 'react';
+ 
 import { Box, Stack, Typography } from '@mui/material';
 
 import HeroBannerImage from '../assets/images/banner.png';
