@@ -36,7 +36,11 @@ const HorizentaleToolbar = ({data ,bodyPart,setbodyPart}) => {
 
                     <Box
                     key ={item.id || item}
+<<<<<<< HEAD
+                    itemId ={item.id || item}
+=======
                     itemid ={item.id || item}
+>>>>>>> 6234871ae7abf30109cc2b582bd243b165121755
                     title ={item.id || item}
                     m = "0 40px">
                         <Bodyparts item={item} bodyPart={bodyPart} setbodyPart = {setbodyPart} />

@@ -62,7 +62,11 @@ const SearchExercises = ({exercises,bodyPart,setBodyPart}) => {
                 </Button>
             </Box>
             <Box sx = {{position:'relative',width:'100%',p:'20px'}}>
+<<<<<<< HEAD
+                <HorizentaleToolbar data ={bodyParts}   setBodyPart={setBodyPart} bodyPart={bodyPart}/>
+=======
                 <HorizentaleToolbar data ={bodyParts} />
+>>>>>>> 6234871ae7abf30109cc2b582bd243b165121755
             </Box>
         </Stack>
     );
